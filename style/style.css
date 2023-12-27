@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  padding: 15px;
+  color: white;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+  max-width: 350px;
+}
+.container .search-area {
+  margin: 1rem 0;
+  border-radius: 22px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.container .search-area input {
+  width: 70%;
+  outline: none;
+  border: none;
+  padding: 7px 7px 7px 15px;
+  font-size: 1.1rem;
+}
+.container .search-area button {
+  cursor: pointer;
+  width: 30%;
+  border: none;
+  padding: 7px;
+  font-size: 1.1rem;
+  background-color: orangered;
+}
+.container .search-area button:active {
+  background-color: lightseagreen;
+}
+.container .title {
+  padding: 1rem 0;
+  line-height: 40px;
+}
+.container .img-icon {
+  display: block;
+  margin: 0 0 1rem 0;
+  width: 130px;
+}
+.container .info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.container .info h2 {
+  font-size: 1.6rem;
+}/*# sourceMappingURL=style.css.map */
