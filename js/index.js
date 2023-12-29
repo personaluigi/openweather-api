@@ -6,7 +6,7 @@ window.addEventListener('DOMContentLoaded', () => {
         document.body.style.backgroundImage = 'url(./images/morning.jpg)'
     } else if (hour > 18) {
         document.body.style.backgroundImage = 'url(./images/night.jpg)'
-    } else if (hour > 12 && hour < 18) {
+    } else if (hour > 12) {
         document.body.style.backgroundImage = 'url(./images/afternoon.jpg)'
     }
 })
